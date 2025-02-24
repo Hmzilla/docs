@@ -1,1 +1,27 @@
-site_name: Hamza's website
+site_name: Hmzilla's Documentation 
+theme:
+  name: material
+  language: ar
+  logo: assets/logo.png
+  favicon: images/favicon.png
+  
+  palette:
+    primary: black
+    accent: red
+
+nav:
+  - index.md
+  - Blog:
+    - blog/index.md
+    
+    
+plugins:
+  - rss:
+      match_path: blog/posts/.* 
+      date_from_meta:
+        as_creation: date
+      categories:
+        - categories
+        - tags
+  
+  - offline
