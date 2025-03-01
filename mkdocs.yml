@@ -1,6 +1,5 @@
 site_name: Hmzilla's Documentation 
 theme:
-  name: material
   language: ar
   logo: assets/logo.png
   favicon: images/favicon.png
